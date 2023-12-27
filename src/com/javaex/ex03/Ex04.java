@@ -13,7 +13,7 @@ public class Ex04 {
 		if(time<=8) {
 			money=10000*time;
 		}else if(time>8) {
-			money=12000*time;
+			money=80000+(time-8)*12000;
 		}
 		System.out.println("임금은 "+money+"원입니다");
 		
